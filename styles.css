@@ -1,4 +1,45 @@
 
-body{
+body {
     font-family: monospace;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    font-size: 32px;
+
+    width: 100%;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+
+    font-weight: 800;
+    font-size: 48px;
+}
+
+.screen {
+    display: flex;
+    justify-content: center;
+    
+    border: 10px;
+    border-style: solid;
+    border-radius: 8px;
+
+    margin: 20px;
+    padding: 30px;
+
+    width: 50%;
+}
+
+
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    text-align: center;
 }
