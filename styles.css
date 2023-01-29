@@ -32,6 +32,35 @@ body {
     width: 50%;
 }
 
+.buttons {
+    display: flex;
+    justify-content: center;
+    
+    border: 10px;
+    border-style: solid;
+    border-radius: 8px;
+
+    margin: 20px;
+    padding: 10px;
+
+    width: 50%;
+}
+
+.buttons * {
+    display: flex;
+    justify-content: center;
+    
+    border: 6px;
+    border-style: solid;
+    border-radius: 8px;
+
+    margin: 20px;
+    padding: 10px;
+
+    width: auto;
+    flex-wrap: wrap;
+}
+
 
 
 .footer {
