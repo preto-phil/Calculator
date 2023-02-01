@@ -16,3 +16,12 @@ function multiply() {
 function divide() {
     number = a / b;
 }
+
+function calculate(a, b) {
+    const plus = a + b;
+    const min = a - b;
+    const div = a / b;
+    const mult = a * b;
+    
+
+}
