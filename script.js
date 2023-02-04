@@ -25,3 +25,5 @@ function calculate(a, b) {
     
 
 }
+
+// amount += input;
